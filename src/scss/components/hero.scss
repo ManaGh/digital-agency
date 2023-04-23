@@ -1,0 +1,51 @@
+@import "./../variables.scss";
+
+.contain-part {
+  max-width: $max-content-width;
+}
+
+.text-part {
+  position: absolute;
+  font-family: $font-family;
+  font-style: Bold;
+  font-size: 64px;
+  top: 213px;
+  left: $left-text;
+}
+
+.photo-part {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: 803px;
+  top: 171px;
+}
+
+.DigitalAgencyText {
+  position: absolute;
+  left: $left-text;
+  top: 516px;
+  font-family: $font-family;
+  font-size: 18px;
+  font-style: Regular;
+}
+
+.Button {
+  position: absolute;
+  background-color: #8eadd5;
+  border-radius: 8px;
+  margin-bottom: 10rem;
+  padding: 1rem;
+  margin: 50px 0;
+
+ 
+
+
+  display: grid;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: $font-family;
+  font-size: 16px;
+}
